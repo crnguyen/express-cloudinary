@@ -1,0 +1,17 @@
+<h1>Here are my pics!</h1>
+
+<% if (myPics) { %>
+    <div class="picBox">
+        <% myPics.forEach(p=>{ %>
+            <div>
+                <img src="<%= p.url %>" alt="picture" style="width:300px">
+            </div>
+        <% }) %>
+    </div>
+
+<% } else { %>
+    <h2>Sorry, I don't have any pics</h2>
+
+<% } %>
+
+<a href="/">New Pic</a>

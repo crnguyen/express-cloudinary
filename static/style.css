@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.picBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
